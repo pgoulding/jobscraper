@@ -11,7 +11,7 @@ const webScraper = (link) => {
     })
     .end()
     .then((result) => {
-      return result
+      res.status(200).json(results)
     })
     .catch((error) => {
       return console.error('Search failed:', error);
