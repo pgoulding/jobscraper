@@ -2,8 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors')
 const bodyParser = require('body-parser');
-// const webScraper = require('./scraper')
-const environment = process.env.NODE_ENV || 'development'
+const environment = process.env.NODE_ENV || 'development';
 const Nightmare = require('nightmare');
 const nightmare = Nightmare({ show: false });
 
