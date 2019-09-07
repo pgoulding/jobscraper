@@ -9,6 +9,9 @@
     "express": "^4.17.1",
     "nightmare": "^3.0.2"
   },
+  "engines": {
+    "node": "10.15.0"
+  },
   "devDependencies": {},
   "scripts": {
     "start":"node server.js",
